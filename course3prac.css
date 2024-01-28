@@ -1,0 +1,43 @@
+body {
+  font-family: "Roboto", sans-serif;
+  padding: 0px;
+  margin: 0px;
+}
+body ul,
+body li,
+body div,
+body button,
+body p {
+  padding: 0px;
+  margin: 0px;
+  border: none;
+  list-style: none;
+}
+body .header {
+  position: fixed;
+  left: 30px;
+  top: 20px;
+  right: 30px;
+}
+body .header .main-menu {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+body .header .main-menu li {
+  display: inline-block;
+  margin-left: 12px;
+  font-size: 20px;
+  color: white;
+  list-style: none;
+}
+body .main {
+  background: url("/img/back_img.jpg");
+  background-size: cover;
+  height: 100vh;
+  font-size: 280px;
+  font-weight: 600;
+  line-height: 100vh;
+  text-align: center;
+  color: white;
+}/*# sourceMappingURL=course3prac.css.map */

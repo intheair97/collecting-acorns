@@ -1,0 +1,74 @@
+@charset "UTF-8";
+body {
+  font-family: "Roboto", sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  padding: 0px;
+  margin: 0px;
+}
+
+ul,
+li,
+button,
+p,
+div {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+
+.header {
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  border-bottom: 1px solid #292929;
+  background-color: #FEFAF5;
+  z-index: 99;
+  /*space between으로 정확히 가운데를 맞출 수  없어서 postion으로 위치를 다시 잡아준다*/
+}
+.header .cate_menu {
+  display: flex;
+  gap: 20px;
+  margin: 0px 40px;
+}
+.header .my_menu {
+  display: flex;
+  gap: 20px;
+  margin: 0px 40px;
+}
+.header .logo_section {
+  position: absolute;
+  left: calc(50% - 100px);
+}
+
+.contents_wrap .product_items {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+.contents_wrap .product_items .pr_item {
+  width: 50%;
+  position: relative;
+  border-bottom: 1px solid #292929;
+  border-right: 1px solid #292929;
+  box-sizing: border-box;
+}
+.contents_wrap .product_items .pr_item:nth-child(2n) {
+  border-right: none;
+}
+.contents_wrap .product_items .pr_item .pr_info {
+  position: absolute;
+  left: 80px;
+  top: 100px;
+  font-weight: 200;
+}
+.contents_wrap .product_items .pr_item .pr_img {
+  font-size: 0px;
+}
+.contents_wrap .product_items .pr_item .pr_img img {
+  width: 100%;
+}/*# sourceMappingURL=cs4.css.map */

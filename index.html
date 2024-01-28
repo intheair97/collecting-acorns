@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collecting acorns</title>
+    <link rel="stylesheet" href="./collecting_acorns.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://webfontbox.github.io/Arita/font.min.css">
+</head>
+
+<body>
+
+    <!--팝업-->
+    <div id="card01-popup" class="popup_section" onclick="closePopup('card01')">
+        <div class="popup_card card01">
+            <div class="popup_header">
+                <div class="popup_header_btn">
+                    <span class="popup_btn_basket">
+                        <img src="@_collecting-acorns/popup_btn_basket.svg">
+                    </span>
+                    <span class="popup_btn_share">
+                        <img src="@_collecting-acorns/popup_btn_share.svg">
+                    </span>
+                </div>
+                <div class="popup_header_link">
+                    <a
+                        href="https://search.shopping.naver.com/book/catalog/44417950618?cat_id=50011720&frm=PBOKMOD&query=%ED%99%94%EC%9A%94%EC%9D%BC%EC%9D%B4%EC%97%88%EA%B3%A0+%EB%B9%84%EB%8A%94+%EC%98%A4%EC%A7%80+%EC%95%8A%EC%95%98%EB%8B%A4&NaPm=ct%3Dlrndzn2g%7Cci%3Df375a26e99e0b1125bf2fdba4c26597b08ea87d1%7Ctr%3Dboknx%7Csn%3D95694%7Chk%3Dbbf5b80c145775c459007b15431037a15d9f800b">책
+                        보러 가기</a>
+                </div>
+
+            </div>
+            <div class="popup_img">
+                <img src="@_collecting-acorns/popup_img/img01.png">
+            </div>
+            <div class="popup_text_container">
+                <span class="popup_text">
+                    불꽃같은 너는 어둠 속을 <br />
+                    뚫어지게 바라보다<br />
+                    배가 홀쭉해져 짙은 풀숲으로 돌아간 후<br />
+                    다시 뒤돌아보지 않는다<br />
+
+                </span>
+                <span class="popup_text_name">
+                    [진화], 이재연
+                </span>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div id="card02-popup" class="popup_section" onclick="closePopup('card02')">
+        <div class="popup_card card02">
+            <div class="popup_header">
+                <div class="popup_header_btn">
+                    <span class="popup_btn_basket">
+                        <img src="@_collecting-acorns/popup_btn_basket.svg">
+                    </span>
+                    <span class="popup_btn_share">
+                        <img src="@_collecting-acorns/popup_btn_share.svg">
+                    </span>
+                </div>
+                <div class="popup_header_link">
+                    <a
+                        href="https://search.shopping.naver.com/book/catalog/44417950618?cat_id=50011720&frm=PBOKMOD&query=%ED%99%94%EC%9A%94%EC%9D%BC%EC%9D%B4%EC%97%88%EA%B3%A0+%EB%B9%84%EB%8A%94+%EC%98%A4%EC%A7%80+%EC%95%8A%EC%95%98%EB%8B%A4&NaPm=ct%3Dlrndzn2g%7Cci%3Df375a26e99e0b1125bf2fdba4c26597b08ea87d1%7Ctr%3Dboknx%7Csn%3D95694%7Chk%3Dbbf5b80c145775c459007b15431037a15d9f800b">책
+                        보러 가기</a>
+                </div>
+
+            </div>
+            <div class="popup_img">
+                <img src="@_collecting-acorns/popup_img/img02.png">
+            </div>
+            <div class="popup_text_container">
+                <span class="popup_text">
+                    텅 빈 손을 허공으로 뻗어<br />
+                    상처 없는 눈을 손바닥에 받아<br />
+                    모든 것이 사라지는 순간을 메모한다<br />
+
+                    너는 없고 나는 있다<br />
+                    이것을 눈의 나라에선<br />
+                    순수의 무게라 한다<br />
+                    슬픔의 하중이라 한다<br />
+
+                </span>
+                <span class="popup_text_name">
+                    [눈의 나라에서], 이재연
+                </span>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div id="card03-popup" class="popup_section" onclick="closePopup('card03')">
+        <div class="popup_card card03">
+            <div class="popup_header">
+                <div class="popup_header_btn">
+                    <span class="popup_btn_basket">
+                        <img src="@_collecting-acorns/popup_btn_basket.svg">
+                    </span>
+                    <span class="popup_btn_share">
+                        <img src="@_collecting-acorns/popup_btn_share.svg">
+                    </span>
+                </div>
+                <div class="popup_header_link">
+                    <a
+                        href="https://search.shopping.naver.com/book/catalog/44417950618?cat_id=50011720&frm=PBOKMOD&query=%ED%99%94%EC%9A%94%EC%9D%BC%EC%9D%B4%EC%97%88%EA%B3%A0+%EB%B9%84%EB%8A%94+%EC%98%A4%EC%A7%80+%EC%95%8A%EC%95%98%EB%8B%A4&NaPm=ct%3Dlrndzn2g%7Cci%3Df375a26e99e0b1125bf2fdba4c26597b08ea87d1%7Ctr%3Dboknx%7Csn%3D95694%7Chk%3Dbbf5b80c145775c459007b15431037a15d9f800b">책
+                        보러 가기</a>
+                </div>
+
+            </div>
+            <div class="popup_img">
+                <img src="@_collecting-acorns/popup_img/img01.png">
+            </div>
+            <div class="popup_text_container">
+                <span class="popup_text">
+                    비가 멈추는 순간 은팔찌를 끼고<br />
+                    찰랑대다 여름 하고 눈<br />
+                    감으면<br />
+                    숲을 휘감고 부는 공중의 바람은 자연의 의지를 몰고 올 거야<br />
+                    아직 다 끝났다고는 생각하지 마<br />
+
+                </span>
+                <span class="popup_text_name">
+                    [너무 많은 여름], 이재연
+                </span>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="card04-popup" class="popup_section" onclick="closePopup('card04')">
+        <div class="popup_card card04">
+            <div class="popup_header">
+                <div class="popup_header_btn">
+                    <span class="popup_btn_basket">
+                        <img src="@_collecting-acorns/popup_btn_basket.svg">
+                    </span>
+                    <span class="popup_btn_share">
+                        <img src="@_collecting-acorns/popup_btn_share.svg">
+                    </span>
+                </div>
+                <div class="popup_header_link">
+                    <a
+                        href="https://search.shopping.naver.com/book/catalog/44417950618?cat_id=50011720&frm=PBOKMOD&query=%ED%99%94%EC%9A%94%EC%9D%BC%EC%9D%B4%EC%97%88%EA%B3%A0+%EB%B9%84%EB%8A%94+%EC%98%A4%EC%A7%80+%EC%95%8A%EC%95%98%EB%8B%A4&NaPm=ct%3Dlrndzn2g%7Cci%3Df375a26e99e0b1125bf2fdba4c26597b08ea87d1%7Ctr%3Dboknx%7Csn%3D95694%7Chk%3Dbbf5b80c145775c459007b15431037a15d9f800b">책
+                        보러 가기</a>
+                </div>
+
+            </div>
+            <div class="popup_img">
+                <img src="@_collecting-acorns/popup_img_sample.png">
+            </div>
+            <div class="popup_text_container">
+                <span class="popup_text">
+                    기린이 잎사귀를 따 먹는 저녁<br />
+                    수줍음이 많은 작은 꽃들과 함께 구르는 푸른 자갈들<br />
+                    <br />
+                    유모차 안에 탄 아이는 천천히 다가오며<br />
+                    불러 주는<br />
+                    긴 들녘의 노래에 설풋 잠이 들고 시날 평지의 구음을 흩뜨리며<br />
+                    흰 새들이 일제히 땅에 내려앉는다<br />
+
+                </span>
+                <span class="popup_text_name">
+                    [기린이 잎사귀를 먹는 저녁], 이재연
+                </span>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="card05-popup" class="popup_section" onclick="closePopup('card05')">
+        <div class="popup_card card05">
+            <div class="popup_header">
+                <div class="popup_header_btn">
+                    <span class="popup_btn_basket">
+                        <img src="@_collecting-acorns/popup_btn_basket.svg">
+                    </span>
+                    <span class="popup_btn_share">
+                        <img src="@_collecting-acorns/popup_btn_share.svg">
+                    </span>
+                </div>
+                <div class="popup_header_link">
+                    <a
+                        href="https://search.shopping.naver.com/book/catalog/44417950618?cat_id=50011720&frm=PBOKMOD&query=%ED%99%94%EC%9A%94%EC%9D%BC%EC%9D%B4%EC%97%88%EA%B3%A0+%EB%B9%84%EB%8A%94+%EC%98%A4%EC%A7%80+%EC%95%8A%EC%95%98%EB%8B%A4&NaPm=ct%3Dlrndzn2g%7Cci%3Df375a26e99e0b1125bf2fdba4c26597b08ea87d1%7Ctr%3Dboknx%7Csn%3D95694%7Chk%3Dbbf5b80c145775c459007b15431037a15d9f800b">책
+                        보러 가기</a>
+                </div>
+
+            </div>
+            <div class="popup_img">
+                <img src="@_collecting-acorns/popup_img_sample.png">
+            </div>
+            <div class="popup_text_container">
+                <span class="popup_text">
+                    세상을 발견하고 풍요로워진 사람으로 하여금 세상을 단념하게 하라<br />
+                    <br />
+                    어두운 나뭇가지 위에 잠든 새가 푸드득 가지를 흔들자 날이 밝아 오기 시작한다 잠든 아이가 눈을 가만히 뜨고 여자를 응시하고 있다 여자는 아이를 응시하고 있다
+                </span>
+                <span class="popup_text_name">
+                    [사랑의 책], 이재연
+                </span>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="card06-popup" class="popup_section" onclick="closePopup('card06')">
+        <div class="popup_card card06">
+            <div class="popup_header">
+                <div class="popup_header_btn">
+                    <span class="popup_btn_basket">
+                        <img src="@_collecting-acorns/popup_btn_basket.svg">
+                    </span>
+                    <span class="popup_btn_share">
+                        <img src="@_collecting-acorns/popup_btn_share.svg">
+                    </span>
+                </div>
+                <div class="popup_header_link">
+                    <a
+                        href="https://search.shopping.naver.com/book/catalog/44417950618?cat_id=50011720&frm=PBOKMOD&query=%ED%99%94%EC%9A%94%EC%9D%BC%EC%9D%B4%EC%97%88%EA%B3%A0+%EB%B9%84%EB%8A%94+%EC%98%A4%EC%A7%80+%EC%95%8A%EC%95%98%EB%8B%A4&NaPm=ct%3Dlrndzn2g%7Cci%3Df375a26e99e0b1125bf2fdba4c26597b08ea87d1%7Ctr%3Dboknx%7Csn%3D95694%7Chk%3Dbbf5b80c145775c459007b15431037a15d9f800b">책
+                        보러 가기</a>
+                </div>
+
+            </div>
+            <div class="popup_img">
+                <img src="@_collecting-acorns/popup_img_sample.png">
+            </div>
+            <div class="popup_text_container">
+                <span class="popup_text">
+                    자판기를 누를 때마다 당도에 알맞은 봄이 나왔다 지금 여기는 황사였다가 비였다가 꽃이었다가 먼 산이었다가 숲이었다가 나무 몇 그루 서 있는 포켓공원이었다가<br />
+                    나머지의 공터에는 비가 내렸다
+                </span>
+                <span class="popup_text_name">
+                    [거울], 이재연
+                </span>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="card07-popup" class="popup_section" onclick="closePopup('card07')">
+        <div class="popup_card card07">
+            <div class="popup_header">
+                <div class="popup_header_btn">
+                    <span class="popup_btn_basket">
+                        <img src="@_collecting-acorns/popup_btn_basket.svg">
+                    </span>
+                    <span class="popup_btn_share">
+                        <img src="@_collecting-acorns/popup_btn_share.svg">
+                    </span>
+                </div>
+                <div class="popup_header_link">
+                    <a
+                        href="https://search.shopping.naver.com/book/catalog/44417950618?cat_id=50011720&frm=PBOKMOD&query=%ED%99%94%EC%9A%94%EC%9D%BC%EC%9D%B4%EC%97%88%EA%B3%A0+%EB%B9%84%EB%8A%94+%EC%98%A4%EC%A7%80+%EC%95%8A%EC%95%98%EB%8B%A4&NaPm=ct%3Dlrndzn2g%7Cci%3Df375a26e99e0b1125bf2fdba4c26597b08ea87d1%7Ctr%3Dboknx%7Csn%3D95694%7Chk%3Dbbf5b80c145775c459007b15431037a15d9f800b">책
+                        보러 가기</a>
+                </div>
+
+            </div>
+            <div class="popup_img">
+                <img src="@_collecting-acorns/popup_img_sample.png">
+            </div>
+            <div class="popup_text_container">
+                <span class="popup_text">
+                    아무 일도 일어나지 않는 우주의 한구석에서<br />
+                    조금 경사진 길을 오르며 숨을 헐떡거리는 일<br />
+                    어디인가 무엇인가 아파도 많이 아파도<br />
+                    죽지 않는 영혼의 일, 지루한 꿈의 일
+
+                </span>
+                <span class="popup_text_name">
+                    [허공에 검은 선을 그으며], 이재연
+                </span>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div id="card08-popup" class="popup_section" onclick="closePopup('card08')">
+        <div class="popup_card card08">
+            <div class="popup_header">
+                <div class="popup_header_btn">
+                    <span class="popup_btn_basket">
+                        <img src="@_collecting-acorns/popup_btn_basket.svg">
+                    </span>
+                    <span class="popup_btn_share">
+                        <img src="@_collecting-acorns/popup_btn_share.svg">
+                    </span>
+                </div>
+                <div class="popup_header_link">
+                    <a
+                        href="https://search.shopping.naver.com/book/catalog/44417950618?cat_id=50011720&frm=PBOKMOD&query=%ED%99%94%EC%9A%94%EC%9D%BC%EC%9D%B4%EC%97%88%EA%B3%A0+%EB%B9%84%EB%8A%94+%EC%98%A4%EC%A7%80+%EC%95%8A%EC%95%98%EB%8B%A4&NaPm=ct%3Dlrndzn2g%7Cci%3Df375a26e99e0b1125bf2fdba4c26597b08ea87d1%7Ctr%3Dboknx%7Csn%3D95694%7Chk%3Dbbf5b80c145775c459007b15431037a15d9f800b">책
+                        보러 가기</a>
+                </div>
+
+            </div>
+            <div class="popup_img">
+                <img src="@_collecting-acorns/popup_img_sample.png">
+            </div>
+            <div class="popup_text_container">
+                <span class="popup_text">
+                    어두운 색 이불 속에서 발가락을 꼼지락거리다 조용해진 우리는 눈이 꽃처럼 내리는 소리를 들었다 모든 길이 지워지고 있었다 우리는 백지장이 될 때까지 숨을 죽이고 미래를 기다리고
+                    있었다
+                </span>
+                <span class="popup_text_name">
+                    [슬픔과 상관없이], 이재연
+                </span>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="card09-popup" class="popup_section" onclick="closePopup('card09')">
+        <div class="popup_card card09">
+            <div class="popup_header">
+                <div class="popup_header_btn">
+                    <span class="popup_btn_basket">
+                        <img src="@_collecting-acorns/popup_btn_basket.svg">
+                    </span>
+                    <span class="popup_btn_share">
+                        <img src="@_collecting-acorns/popup_btn_share.svg">
+                    </span>
+                </div>
+                <div class="popup_header_link">
+                    <a
+                        href="https://search.shopping.naver.com/book/catalog/44417950618?cat_id=50011720&frm=PBOKMOD&query=%ED%99%94%EC%9A%94%EC%9D%BC%EC%9D%B4%EC%97%88%EA%B3%A0+%EB%B9%84%EB%8A%94+%EC%98%A4%EC%A7%80+%EC%95%8A%EC%95%98%EB%8B%A4&NaPm=ct%3Dlrndzn2g%7Cci%3Df375a26e99e0b1125bf2fdba4c26597b08ea87d1%7Ctr%3Dboknx%7Csn%3D95694%7Chk%3Dbbf5b80c145775c459007b15431037a15d9f800b">책
+                        보러 가기</a>
+                </div>
+
+            </div>
+            <div class="popup_img">
+                <img src="@_collecting-acorns/popup_img_sample.png">
+            </div>
+            <div class="popup_text_container">
+                <span class="popup_text">
+                    커다란 양 한 마리의 무게만큼<br />
+                    체중계에 순종하다<br />
+                    무리 속에서 벗어나 지붕 위에 돌을 던진다<br />
+                    멀리 떨어지는 소리를 분별하며<br />
+                    소리 없는 소리를 가늠하며<br />
+                    <br />
+                    이제 누구라도 기다릴 수 있다<br />
+                    누구라도 보내 드릴 수 있다<br />
+
+                    소리 없이 멀리 아주 멀리<br />
+                    돌을 던져 보내 드릴 수 있다
+                </span>
+                <span class="popup_text_name">
+                    [오늘의 날씨], 이재연
+                </span>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="card10-popup" class="popup_section" onclick="closePopup('card10')">
+        <div class="popup_card card10">
+            <div class="popup_header">
+                <div class="popup_header_btn">
+                    <span class="popup_btn_basket">
+                        <img src="@_collecting-acorns/popup_btn_basket.svg">
+                    </span>
+                    <span class="popup_btn_share">
+                        <img src="@_collecting-acorns/popup_btn_share.svg">
+                    </span>
+                </div>
+                <div class="popup_header_link">
+                    <a
+                        href="https://search.shopping.naver.com/book/catalog/44417950618?cat_id=50011720&frm=PBOKMOD&query=%ED%99%94%EC%9A%94%EC%9D%BC%EC%9D%B4%EC%97%88%EA%B3%A0+%EB%B9%84%EB%8A%94+%EC%98%A4%EC%A7%80+%EC%95%8A%EC%95%98%EB%8B%A4&NaPm=ct%3Dlrndzn2g%7Cci%3Df375a26e99e0b1125bf2fdba4c26597b08ea87d1%7Ctr%3Dboknx%7Csn%3D95694%7Chk%3Dbbf5b80c145775c459007b15431037a15d9f800b">책
+                        보러 가기</a>
+                </div>
+
+            </div>
+            <div class="popup_img">
+                <img src="@_collecting-acorns/popup_img_sample.png">
+            </div>
+            <div class="popup_text_container">
+                <span class="popup_text">
+                    멀구슬나무 종소리가 쏟아지는 저녁<br />
+                    들어 보려고 애썼지만 들리지 않았던<br />
+                    하늘의 목소리<br />
+                    <br />
+                    아직 다 자라지 않은 겨울나무 가지 끝에 매달려 있던<br />
+                    적막과 아무도 지나가지 않은 흰 눈길까지도<br />
+                    다 어린 기도였던 그때<br />
+                    <br />
+                    어머니는 불길을 다독이는 아궁이 앞에 있었고<br />
+                    신은 빨간 열매를 꺾던 그 숲에 있었다
+                </span>
+                <span class="popup_text_name">
+                    [신과 아이], 이재연
+                </span>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="card11-popup" class="popup_section" onclick="closePopup('card11')">
+        <div class="popup_card card11">
+            <div class="popup_header">
+                <div class="popup_header_btn">
+                    <span class="popup_btn_basket">
+                        <img src="@_collecting-acorns/popup_btn_basket.svg">
+                    </span>
+                    <span class="popup_btn_share">
+                        <img src="@_collecting-acorns/popup_btn_share.svg">
+                    </span>
+                </div>
+                <div class="popup_header_link">
+                    <a
+                        href="https://search.shopping.naver.com/book/catalog/44417950618?cat_id=50011720&frm=PBOKMOD&query=%ED%99%94%EC%9A%94%EC%9D%BC%EC%9D%B4%EC%97%88%EA%B3%A0+%EB%B9%84%EB%8A%94+%EC%98%A4%EC%A7%80+%EC%95%8A%EC%95%98%EB%8B%A4&NaPm=ct%3Dlrndzn2g%7Cci%3Df375a26e99e0b1125bf2fdba4c26597b08ea87d1%7Ctr%3Dboknx%7Csn%3D95694%7Chk%3Dbbf5b80c145775c459007b15431037a15d9f800b">책
+                        보러 가기</a>
+                </div>
+
+            </div>
+            <div class="popup_img">
+                <img src="@_collecting-acorns/popup_img_sample.png">
+            </div>
+            <div class="popup_text_container">
+                <span class="popup_text">
+                    이제 강물이 풀렸나 봐<br />
+                    어디든 갈 수 있게 된 것 같아<br />
+                    <br />
+                    만날 수 없을 것 같은 사람도 만나게 된다<br />
+                    나와 반대쪽에 있는 사람도 만날 수 있게 되었다<br />
+                    다 흐르는 강물 때문이다
+                </span>
+                <span class="popup_text_name">
+                    [조용한 식사], 이재연
+                </span>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!--아래 본문내용-->
+
+    <div class="body_container">
+
+
+        <!--좌측 정보 영역-->
+
+        <div class="section_left">
+            <div class="head_section_container">
+                <span class="title_text">
+                    도토리 모으기
+                </span>
+                <div class="head_info_container">
+                    <div class="head_info_collected-acorns">
+                        <div class="collected-acorns_text">
+                            오늘 모인 도토리
+                        </div>
+                        <span class="collected-acorns_num">
+                            10알
+                        </span>
+                    </div>
+                    <div class="head_info_my-acorns">
+                        <div class="my-acorns_text">
+                            내가 담은 도토리
+                        </div>
+                        <div class="my-acorns_num">
+                            <span class="num_text">
+                                5
+                            </span>
+                            <div class="num_icon">
+                                <img src="@_collecting-acorns/icon_basket.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bot_section_container">
+                <div class="bot_text">
+                    겨울나기를 위해 도토리를 모으는 다람쥐처럼 마음이 배고플 때 꺼내 보도록 야금야금 모으는 마음의 양식
+                </div>
+                <span class="bot_maker">
+                    <a href="https://www.instagram.com/dama__0112/">제작자 @dama_0112</a>
+                </span>
+            </div>
+        </div>
+
+
+        <!--우측 카드 영역-->
+
+        <div class="section_right">
+            <div class="card_item card_01" onclick="openPopup('card01')">
+                <div class="card_item_container">
+                    <div class="card_icon">
+                        <img src="@_collecting-acorns/icon-acorn_simple.svg">
+                    </div>
+                    <div class="card_word">
+                        불꽃
+                    </div>
+
+                </div>
+                <div class="add-info">
+                    <div class="add-info-text">
+                        불꽃같은 너는 어둠 속을<br />뚫어지게 바라보다
+                    </div>
+                    <div class="add-info-icon">
+                        <img src="@_collecting-acorns/add-info-icon.svg">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="card_item card_02" onclick="openPopup('card02')">
+                <div class="card_item_container">
+                    <div class="card_icon">
+                        <img src="@_collecting-acorns/icon-acorn_simple.svg">
+                    </div>
+                    <div class="card_word">
+                        상처 없는 눈
+                    </div>
+                </div>
+
+                <div class="add-info">
+                    <div class="add-info-text">
+                        텅 빈 손을 허공으로 뻗어<br />상처 없는 눈을 손바닥에 받아
+                    </div>
+                    <div class="add-info-icon">
+                        <img src="@_collecting-acorns/add-info-icon.svg">
+                    </div>
+                </div>
+            </div>
+
+            <div class="card_item card_03" onclick="openPopup('card03')">
+                <div class="card_item_container">
+                    <div class="card_icon">
+                        <img src="@_collecting-acorns/icon-acorn_simple.svg">
+                    </div>
+                    <div class="card_word">
+                        은팔찌
+                    </div>
+                </div>
+
+                <div class="add-info">
+                    <div class="add-info-text">
+                        비가 멈추는 순간 은팔찌를 끼고 찰랑대다<br /> 여름 하고 눈<br />
+                        감으면
+                    </div>
+                    <div class="add-info-icon">
+                        <img src="@_collecting-acorns/add-info-icon.svg">
+                    </div>
+                </div>
+            </div>
+
+            <div class="card_item card_04" onclick="openPopup('card04')">
+                <div class="card_item_container">
+                    <div class="card_icon">
+                        <img src="@_collecting-acorns/icon-acorn_simple.svg">
+                    </div>
+                    <div class="card_word">
+                        푸른 자갈
+                    </div>
+                </div>
+                <div class="add-info">
+                    <div class="add-info-text">
+                        수줍음이 많은 작은 꽃들과 함께 구르는 푸른 자갈들
+                    </div>
+                    <div class="add-info-icon">
+                        <img src="@_collecting-acorns/add-info-icon.svg">
+                    </div>
+                </div>
+            </div>
+
+            <div class="card_item card_05" onclick="openPopup('card05')">
+                <div class="card_item_container">
+                    <div class="card_icon">
+                        <img src="@_collecting-acorns/icon-acorn_simple.svg">
+                    </div>
+                    <div class="card_word">
+                        단념하게 하라
+                    </div>
+                </div>
+                <div class="add-info">
+                    <div class="add-info-text">
+                        세상을 발견하고 풍요로워진
+                        사람으로 하여금<br />
+                        세상을 단념하게 하라
+                    </div>
+                    <div class="add-info-icon">
+                        <img src="@_collecting-acorns/add-info-icon.svg">
+                    </div>
+                </div>
+            </div>
+
+            <div class="card_item card_06" onclick="openPopup('card06')">
+                <div class="card_item_container">
+                    <div class="card_icon">
+                        <img src="@_collecting-acorns/icon-acorn_simple.svg">
+                    </div>
+                    <div class="card_word">
+                        당도에 알맞은 봄
+                    </div>
+                </div>
+                <div class="add-info">
+                    <div class="add-info-text">
+                        자판기를 누를 때마다<br />당도에 알맞은 봄이 나왔다
+                    </div>
+                    <div class="add-info-icon">
+                        <img src="@_collecting-acorns/add-info-icon.svg">
+                    </div>
+                </div>
+            </div>
+
+            <div class="card_item card_07" onclick="openPopup('card07')">
+                <div class="card_item_container">
+                    <div class="card_icon">
+                        <img src="@_collecting-acorns/icon-acorn_simple.svg">
+                    </div>
+                    <div class="card_word">
+                        영혼의 일
+                    </div>
+                </div>
+
+                <div class="add-info">
+                    <div class="add-info-text">
+                        죽지 않는 영혼의 일,<br />지루한 꿈의 일
+                    </div>
+                    <div class="add-info-icon">
+                        <img src="@_collecting-acorns/add-info-icon.svg">
+                    </div>
+                </div>
+            </div>
+
+            <div class="card_item card_08" onclick="openPopup('card08')">
+                <div class="card_item_container">
+                    <div class="card_icon">
+                        <img src="@_collecting-acorns/icon-acorn_simple.svg">
+                    </div>
+                    <div class="card_word">
+                        눈
+                    </div>
+                </div>
+                <div class="add-info">
+                    <div class="add-info-text">
+                        우리는 눈이 꽃처럼 내리는<br />소리를 들었다
+                    </div>
+                    <div class="add-info-icon">
+                        <img src="@_collecting-acorns/add-info-icon.svg">
+                    </div>
+                </div>
+            </div>
+            <div class="card_item card_09" onclick="openPopup('card09')">
+                <div class="card_item_container">
+                    <div class="card_icon">
+                        <img src="@_collecting-acorns/icon-acorn_simple.svg">
+                    </div>
+                    <div class="card_word">
+                        기다림
+                    </div>
+                </div>
+
+                <div class="add-info">
+                    <div class="add-info-text">
+                        이제 누구라도 기다릴 수 있다<br />
+                        누구라도 보내 드릴 수 있다
+                    </div>
+                    <div class="add-info-icon">
+                        <img src="@_collecting-acorns/add-info-icon.svg">
+                    </div>
+                </div>
+            </div>
+            <div class="card_item card_10" onclick="openPopup('card10')">
+                <div class="card_item_container">
+                    <div class="card_icon">
+                        <img src="@_collecting-acorns/icon-acorn_simple.svg">
+                    </div>
+                    <div class="card_word">
+                        빨간 열매
+                    </div>
+                </div>
+                <div class="add-info">
+                    <div class="add-info-text">
+                        신은 빨간 열매를 꺾던 그 숲에 있었다
+                    </div>
+                    <div class="add-info-icon">
+                        <img src="@_collecting-acorns/add-info-icon.svg">
+                    </div>
+                </div>
+            </div>
+            <div class="card_item card_11" onclick="openPopup('card11')">
+                <div class="card_item_container">
+                    <div class="card_icon">
+                        <img src="@_collecting-acorns/icon-acorn_simple.svg">
+                    </div>
+                    <div class="card_word">
+                        강물
+                    </div>
+                </div>
+                <div class="add-info">
+                    <div class="add-info-text">
+                        이제 강물이 풀렸나 봐 <br />어디든 갈 수 있게 된 것 같아
+                    </div>
+                    <div class="add-info-icon">
+                        <img src="@_collecting-acorns/add-info-icon.svg">
+                    </div>
+                </div>
+            </div>
+            <div class="card_item card_12">
+                <div class="card_item_container">
+                    <div class="card_icon">
+                        <img src="@_collecting-acorns/icon-acorn_simple.svg">
+                    </div>
+                    <div class="card_word">
+                        강물
+                    </div>
+                </div>
+                <div class="add-info">
+                    <div class="add-info-text">
+                        이제 강물이 풀렸나 봐 <br />어디든 갈 수 있게 된 것 같아
+                    </div>
+                    <div class="add-info-icon">
+                        <img src="@_collecting-acorns/add-info-icon.svg">
+                    </div>
+                </div>
+            </div>
+            <div class="card_item card_13">
+                <div class="card_item_container">
+                    <div class="card_icon">
+                        <img src="@_collecting-acorns/icon-acorn_simple.svg">
+                    </div>
+                    <div class="card_word">
+                        강물
+                    </div>
+                </div>
+
+                <div class="add-info">
+                    <div class="add-info-text">
+                        이제 강물이 풀렸나 봐 <br />어디든 갈 수 있게 된 것 같아
+                    </div>
+                    <div class="add-info-icon">
+                        <img src="@_collecting-acorns/add-info-icon.svg">
+                    </div>
+                </div>
+            </div>
+            <div class="card_item card_14">
+                <div class="card_item_container">
+                    <div class="card_icon">
+                        <img src="@_collecting-acorns/icon-acorn_simple.svg">
+                    </div>
+                    <div class="card_word">
+                        강물
+                    </div>
+                </div>
+                <div class="add-info">
+                    <div class="add-info-text">
+                        이제 강물이 풀렸나 봐 <br />어디든 갈 수 있게 된 것 같아
+                    </div>
+                    <div class="add-info-icon">
+                        <img src="@_collecting-acorns/add-info-icon.svg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        function openPopup(cardId) {
+            document.getElementById(cardId + '-popup').style.display = 'flex';
+        }
+
+        function closePopup(cardId) {
+            document.getElementById(cardId + '-popup').style.display = 'none';
+        }
+    </script>
+
+
+</body>
+
+</html>

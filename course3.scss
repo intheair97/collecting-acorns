@@ -1,0 +1,47 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing:antialiased;
+    padding: 0px;
+    margin:0%
+}
+ul,li,button,p,div{
+    padding: 0px;
+    margin:0%
+}
+.header{
+    position: fixed;
+    left:30px;
+    top: 20px;
+    right: 30px;
+    .main_menu{
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        li{
+            display: inline-block;
+            font-size: 20px;
+            color: white;
+            margin-left: 12px;
+            
+        }
+    }
+
+    ul,li{
+        list-style: none;
+    }
+}
+.main{
+    background:url("./img/back_img.jpg");
+    background-size: cover; 
+    height: 100vh;
+    .main-title{
+        font-size: 280px;
+        font-weight: 500;
+        color: white;
+        line-height: 100vh;
+        text-align: center
+        ;
+    }
+
+}
