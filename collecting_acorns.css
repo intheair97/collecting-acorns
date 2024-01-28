@@ -328,7 +328,7 @@ body .section_right .card_11 {
 body .section_right .card_12 {
   background-color: #FF926F;
 }
-@media only screen and (max-width: 780px) {
+@media only screen and (max-width: 680px) {
   body .popup_section .popup_card {
     width: 320px;
     height: 740px;

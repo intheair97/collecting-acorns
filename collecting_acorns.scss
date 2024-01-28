@@ -172,7 +172,6 @@ body {
   .section_left {
     position: fixed;
     height: 100vh;
-
     top: 0px;
     left: 0px;
     width: 400px;
@@ -431,7 +430,7 @@ body {
 
   /* 모바일 반응형 */
 
-  @media only screen and (max-width: 780px) {
+  @media only screen and (max-width: 680px) {
 
     .popup_section{
       .popup_card {
